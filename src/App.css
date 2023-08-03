@@ -1,0 +1,157 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+ font-size:20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.active{
+background-color: gray;
+color: white;
+}
+li a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.row{
+     padding-left: 40px;
+}
+.column {
+  float: left;
+  width: 30.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.h{
+  text-align: center;
+}
+.buttonrow{
+  /* border: 1px black solid; */
+  width: 100px;
+ margin: auto;
+ padding: 30px;
+
+}
+.button1{
+  /* margin-left: 600px; */
+  font-size: 20px;
+  margin-bottom: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+
+  
+}
+.submitF{
+  border:1px grey solid;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+  
+}
+.submitF form{
+  width: 300px;
+}
+.tablecss{
+  border:2px black solid;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+ table, th, td {
+  border: 1px solid;
+}
+table {
+  width: 50%;
+  text-align: center;
+}
